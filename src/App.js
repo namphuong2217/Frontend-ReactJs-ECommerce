@@ -14,7 +14,7 @@ import {
 } from "./pages";
 
 function App() {
-  // 1 set up route structure
+  
   return (
     <Router>
       <Navbar />
