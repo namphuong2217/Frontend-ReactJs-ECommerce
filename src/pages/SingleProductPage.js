@@ -26,12 +26,13 @@ const SingleProductPage = () => {
     fetchSingleProduct,
   } = useProductsContext();
 
-  //back to home page
+  
   useEffect(() => {
     fetchSingleProduct(`${url}${id}`);
     // console.log(product);
   }, [id]);
 
+  //back to home page
   useEffect(() => {
     if (error) {
       setTimeout(() => {

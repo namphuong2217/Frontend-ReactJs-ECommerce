@@ -55,7 +55,7 @@ export const FilterProvider = ({ children }) => {
   };
 
   const updateSort = (e) => {
-    const name = e.target.name; //retrieve select mit id sort tag
+    // const name = e.target.name; //retrieve select mit id sort tag
     const value = e.target.value; // <option value="lowest-price">lowest price</option>
     // console.log(name, value);
     dispatch({ type: UPDATE_SORT, payload: value });
