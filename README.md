@@ -20,8 +20,15 @@ The example application is a E-Commerce site. It uses a custom API for seeding i
 4. Add to cart and shopping cart general functionality.
 
 
-** The general page breakdown looks like this: **
+**The general page breakdown looks like this:**
 
 * Home page (URL: /)
   * List of initial featured items
   * Simple introduction and subscription form
+* OAuth Login Page (URL: /OAuth default page)
+* About page (URL: /about)
+* Products page (URL: /products)
+  * List of all products
+  * Custom list of all products with sorting functions
+* Cart page (URL: /cart)
+
