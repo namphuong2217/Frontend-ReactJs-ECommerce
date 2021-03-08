@@ -12,7 +12,7 @@ https://e-commerce-private.netlify.app/
 
 The example application is a E-Commerce site. It uses a custom API for seeding initial data. [API Products endpoint](https://course-api.com/react-store-products)
 
-**General functionality: ** 
+**General functionality:** 
 
 1. Authenticate users via OAuth2
 2. GET and display paginated lists of product items
