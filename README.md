@@ -29,6 +29,9 @@ The example application is a E-Commerce site. It uses a custom API for seeding i
 * About page (URL: /about)
 * Products page (URL: /products)
   * List of all products
-  * Custom list of all products with sorting functions
+  * Filter of products by sorting criteria such as category, color,...
+* Single product page
+  * Display a product details
 * Cart page (URL: /cart)
+  * List of selected items with functionality like increase quantity and remove item
 
